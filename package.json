@@ -1,0 +1,20 @@
+{
+  "name": "mooz",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack watch --mode development"
+  }, 
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.0.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
