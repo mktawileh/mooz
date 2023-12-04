@@ -1,2 +1,2 @@
 # mooz
-A simple image zooming library that works
+## A simple image zooming library that works

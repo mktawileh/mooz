@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* Basic Options */
     "target": "es5" /* Build to ES2015 */,
-    "module": "nodenext" /* using ES2015 modules */,
+    "module": "commonjs" /* using ES2015 modules */,
     "lib": ["es2015", "dom"] /* Using ES2015 features and DOM APIs  */,
     "declaration": true /* Generates corresponding'.d.ts' files. */,
     "declarationDir": "./dist/types/" /* build '.d.ts' files to ./dist/typeings */,
